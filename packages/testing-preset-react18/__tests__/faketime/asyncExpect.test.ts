@@ -3,7 +3,7 @@ const delay = (timeout: number) => new Promise((resolve) => setTimeout(resolve, 
 test('awit expect', async ( ) => {
   vi.useFakeTimers();
   vi.runAllTimers();
-  // vi.runAllTimersAsync();
+  vi.runAllTimersAsync();
   await delay(5000);
   expect(1).toBe(1);
 
