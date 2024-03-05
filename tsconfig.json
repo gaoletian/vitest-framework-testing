@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "types": [
+      "vitest/globals"
+    ]
+  }
+}
